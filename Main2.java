@@ -1,8 +1,7 @@
-import java.util.*;
+
 
 public class Main2 {
 
-    // method with return
     public static String getGrade(int marks) {
         int grade = marks / 10;
 
@@ -21,6 +20,7 @@ public class Main2 {
 
     public static void main(String[] args) {
         int marks = 76;
-        System.out.println(getGrade(marks));
+        String result = getGrade(marks);  // return value stored
+        System.out.println(result);
     }
 }

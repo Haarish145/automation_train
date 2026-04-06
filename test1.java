@@ -1,8 +1,7 @@
 import java.util.Scanner;
-
 public class test1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("Enter number of elements:");
         int n = sc.nextInt();
         System.out.println("Enter elements:");
@@ -10,8 +9,8 @@ public class test1 {
         for(int i=0;i<n;i++){   
             arr[i]=sc.nextInt();
         }
-        for(int x:arr){
-            System.out.println(x);
+        for(int y:arr){
+            System.out.println(y);
         }
     }
     
